@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>EVA</title>
+    <script src="./js/codigo.js"></script>
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Etiquetas HTML</h1>
+        <i class="fas fa-file-code"></i>
+    </div>
+
+    <!--Menú de navegación-->
+    <ul>
+        <li><a href="#header">Inicio</a></li>
+        <li><a href="#section-1">Vídeo</a></li>
+        <li><a href="#section-2">Body</a></li>
+        <li><a href="#section-3">p</a></li>
+        <li><a href="#section-4">a</a></li>
+        <li><a href="#section-5">img</a></li>
+        <li><a href="#section-6">div</a></li>
+        <li><a href="#section-7">style</a></li>
+        <i class="fas fa-code"></i>
+    </ul>
+
+    <div class="row relleno-lateral flex" id="section-1">
+        <div>
+            <h1>Tutorial etiquetas basicas HTML</h1>
+        </div>
+        <div>
+            <iframe width="956" height="538" src="https://www.youtube.com/embed/e3wsXaiDwYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="section-2">
+        <div class="column-2">
+            <h1>Body</h1>
+            <h2>El elemento body es el contenedor para todos los aspectos representables de un documento. Este es el lugar donde los autores arrojan todos los elementos y contenidos que sus visitantes alcanzarán. El elemento body es parte de la estructura
+                básica de un documento.</h2>
+        </div>
+        <div class="column-2">
+            <img src="./img/etiqueta body.PNG" alt="imagen etiqueta body">
+        </div>
+    </div>
+
+    <div id="section-3">
+        <div class="column-2">
+            <img src="./img/elemento p.PNG" alt="imagen etiqueta p">
+        </div>
+        <div class="column-2">
+            <h1>p</h1>
+            <h2>El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos. Sus etiquetas son: p y /p.</h2>
+        </div>
+    </div>
+
+    <div id="section-4">
+        <div class="column-2">
+            <h1>a</h1>
+            <h2>Es una etiqueta que nos ayuda a poder crear un enlace a una página web. El atributo principal de la etiqueta HTML es href, donde pondremos el enlace al que queremos conectar.</h2>>
+        </div>
+        <div class="column-2">
+            <img src="./img/etiqueta a.PNG" alt="imagen etiqueta a">
+        </div>
+    </div>
+
+    <div id="section-5">
+        <div class="column-2">
+            <img src="./img/etiqueta img.PNG" alt="imagen etiqueta img">
+        </div>
+        <div class="column-2">
+            <h1>img</h1>
+            <h2>El elemento de imagen HTML img representa una imagen en el documento.</h2>
+        </div>
+    </div>
+
+    <div id="section-6">
+        <div class="column-2">
+            <h1>div</h1>
+            <h2>La etiqueta div define una división. Esta etiqueta permite agrupar varios elementos de bloque (párrafos, encabezados, listas, tablas, divisiones, etc).</h2>
+        </div>
+        <div class="column-2">
+            <img src="./img/etiqueta div.PNG" alt="imagen etiqueta div">
+        </div>
+    </div>
+
+    <div id="section-7">
+        <div class="column-2">
+            <img src="./img/atributo style.PNG" alt="imagen etiqueta style">
+        </div>
+        <div class="column-2">
+            <h1>style</h1>
+            <h2>Es el elemento encargado de indicar la información de estilo. Sus etiquetas son: style y /style (ambas obligatorias).</h2>
+        </div>
+    </div>
+
+    <div id="section-8">
+        <div class="column-1">
+            <h1>Idioma</h1>
+        </div>
+        <div>
+            <select name="language" id="language" onchange="language()">
+                <option value="ES" selected>Español</option>
+                <option value="EN">English</option>
+            </select>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

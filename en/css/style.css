@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    /* font family */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    font-size: 250%;
+    text-align: center;
+    background-size: cover;
+    padding: 30vh 100px;
+    height: 100vh;
+}
+
+
+/*Menu navegacion*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    width: 100%;
+}
+
+ul i {
+    float: right;
+    padding: 1%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#section-1 h1 {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: rgb(34, 148, 148);
+    text-align: center;
+}
+
+#section-1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+    padding: 10%;
+}
+
+h1 {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: rgb(34, 148, 148);
+}
+
+#section-2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-left: 10%
+}
+
+#section-2 .column-2 h1 {
+    text-align: left;
+    background-color: gainsboro;
+}
+
+#section-2 .column-2 h2 {
+    text-align: left;
+    background-color: gainsboro;
+}
+
+.column-2 img {
+    padding: 5px;
+    margin: 100px;
+    float: right;
+    width: 500px;
+}
+
+#section-3 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-right: 10%;
+}
+
+.column-2 h1 {
+    text-align: left;
+}
+
+.column-2 h2 {
+    text-align: left;
+}
+
+#section-3 img {
+    padding: 15px;
+    margin: 120px;
+    float: left;
+    width: 420px;
+}
+
+#section-4 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-left: 10%;
+}
+
+#section-4.column-2 h1 {
+    text-align: left;
+    background-color: gainsboro;
+}
+
+#section-4 .column-2 h2 {
+    text-align: left;
+    background-color: gainsboro;
+}
+
+#section-4 img {
+    padding: 15px;
+    margin: 147px;
+    float: right;
+    width: 550px;
+}
+
+#section-5 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-right: 10%;
+}
+
+.column-2 h1 {
+    text-align: left;
+}
+
+.column-2 h2 {
+    text-align: left;
+}
+
+#section-5 img {
+    padding: 5px;
+    margin: 100px;
+    float: left;
+    width: 550px;
+}
+
+#section-6 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-left: 10%;
+}
+
+#section-6 .column-2 h1 {
+    text-align: left;
+    background-color: gainsboro;
+}
+
+#section-6 .column-2 h2 {
+    text-align: left;
+    background-color: gainsboro;
+}
+
+#section-6 img {
+    padding: 5px;
+    margin: 100px;
+    float: right;
+    width: 570px;
+}
+
+#section-7 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding-right: 10%;
+}
+
+.column-2 h1 {
+    text-align: left;
+}
+
+.column-2 h2 {
+    text-align: left;
+}
+
+#section-7 img {
+    padding: 5px;
+    margin: 100px;
+    float: left;
+    width: 570px;
+}
+
+#section-8 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+.column-2 h1 {
+    text-align: center;
+}
+
+.select {
+    background-position: bottom;
+}
+
+#section-8 h1 {
+    color: black;
+}
